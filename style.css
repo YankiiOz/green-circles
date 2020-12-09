@@ -69,11 +69,28 @@ ul {
 .big-green-half-circle {
   width: 600px;
   height: 600px;
-  color: #c6d663;
   background-color: #c6d663;
   clip-path: circle(50% at center right);
+  display: block;
+  white-space: pre-wrap;
+  overflow: hidden;
 }
 
+.scrolling-text {
+  margin-top: 10px;
+  margin-left: 340px;
+  width: 100%;
+  word-wrap: break-word;
+  display: inline-block;
+  color: black;
+  animation: scroll 5s infinite linear;
+}
+
+
+@keyframes scroll {
+  0% {transform: translate(0,0);}
+  100% {transform: translate(-100%,0);}
+  }
 .greeen-half-circle-parent {
   filter: drop-shadow(15px 15px 20px rgb(0, 0, 0));
 }
