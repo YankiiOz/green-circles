@@ -398,21 +398,23 @@ footer {
   font-weight: 700;
 }
 
-@media (min-width: 320px) and (max-width: 420px) {
+@media (min-width: 320px) {
   .main-header,
   .content {
-    width: 300px;
+    width: 420px;
     padding: 0;
-    font-size: 12px;
+    margin: 0;
+    font-size: 14px;
   }
 
   .description {
     display: block;
-    width: 274px;
+    width: 380px;
   }
 
   .primary-content {
     margin-bottom: 20px;
+    margin-left: 80px;
   }
 
   .greeen-half-circle-parent,
@@ -425,49 +427,51 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 0;
-    padding: 10px;
+    width: 456px;
   }
 
   .arguments ul {
-    margin-left: 70px;
+    margin-left: 125px;
   }
 
   .first-argument,
   .second-argument {
-    width: 274px;
+    width: 380px;
     margin: 0;
     margin-bottom: 10px;
   }
 
   .advantages {
-    width: 274px;
+    width: 420px;
     margin: 0;
     margin-bottom: 10px;
+    
   }
 
   .excellence {
-    margin: 0;
+    margin-right: 80px;
     padding: 0;
     width: 250px;
     padding-top: 40px;
   }
 
   .excellence p {
-    width: 210px;
+    width: 300px;
   }
 
   .bottom-angle {
-    right: -44px;
+    right: -20px;
     bottom: -21px;
   }
 
   .top-angle {
-    left: -20px;
-    top: -20px;
+    left: 0;
+    top: -10px;
   }
 
   .examples {
     padding-top: 0;
+    width: 456px;
   }
 
   .first-example,
@@ -475,18 +479,19 @@ footer {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
+    width: 456px;
   }
 
   .text-wrapper,
   .text-wrapper-1 {
     margin: 0;
-    width: 270px;
+    width: 400px;
     margin-bottom: 63px;
     text-align: center;
   }
 
   .upper-image {
-    right: 33px;
+    right: 56px;
     bottom: -6px;
   }
 
@@ -498,7 +503,7 @@ footer {
 
   .down-image-1 {
     position: absolute;
-    right: 33px;
+    right: 45px;
     bottom: -195px;
   }
 
@@ -506,12 +511,11 @@ footer {
     width: 200px;
     height: 180px;
   }
-}
 
- .cards {
+  .cards {
     display: flex;
     flex-direction: column;
-    width: 310px;
+    width: 456px;
     justify-content: center;
     align-items: center;
   }
@@ -520,41 +524,31 @@ footer {
   }
 
   .offers {
-    width: 250px;
+    width: 350px;
     font-size: 11px;
     margin-bottom: 30px;
-    margin-left: 10px;
+    margin-left: 60px;
+    font-size: 14px;
+    font-weight: 600;
   }
 
   .offers:first-child {
     margin-top: 40px;
-
   }
 
   .offers:last-child {
-    width: 250px;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 600;
   }
 
   .redirection {
-    width: 200px;
-    margin-right: 17px;
+    width: 300px;
+    margin-left: 38px;
     padding: 25px;
-    
-  }
- 
-  .information  {
-    display: block;
-    
-    
   }
 
-  .information p  {
-    width: 250px;
-    
+  .information {
+    width: 456px;
   }
-  .information-wrapper {
-    margin-left: -38px;
-  }
-  
 }
-
