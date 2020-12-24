@@ -508,4 +508,53 @@ footer {
   }
 }
 
+ .cards {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards li {
+    text-align: center;
+  }
+
+  .offers {
+    width: 250px;
+    font-size: 11px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+
+  .offers:first-child {
+    margin-top: 40px;
+
+  }
+
+  .offers:last-child {
+    width: 250px;
+  }
+
+  .redirection {
+    width: 200px;
+    margin-right: 17px;
+    padding: 25px;
+    
+  }
+ 
+  .information  {
+    display: block;
+    
+    
+  }
+
+  .information p  {
+    width: 250px;
+    
+  }
+  .information-wrapper {
+    margin-left: -38px;
+  }
+  
+}
 
