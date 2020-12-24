@@ -401,7 +401,7 @@ footer {
 @media (min-width: 320px) {
   .main-header,
   .content {
-    width: 375px;
+    width: 320px;
     padding: 0;
     margin: 0;
     font-size: 14px;
@@ -409,12 +409,12 @@ footer {
 
   .description {
     display: block;
-    width: 375px;
+    width: 320px;
   }
 
   .primary-content {
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .greeen-half-circle-parent,
@@ -427,16 +427,16 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 0;
-    width: 375px;
+    width: 320px;
   }
 
   .arguments ul {
-    margin-left: 125px;
+    margin-left: 80px;
   }
 
   .first-argument,
   .second-argument {
-    width: 370px;
+    width: 310px;
     margin-bottom: 10px;
     padding: 10px;
   }
@@ -445,15 +445,15 @@ footer {
     margin-right: 0;
   }
   .advantages {
-    width: 375px;
+    width: 320px;
     margin-bottom: 10px;
     
   }
 
   .excellence {
-    margin-right: 80px;
+    margin-right: 40px;
     padding: 0;
-    width: 250px;
+    width: 230px;
     padding-top: 40px;
   }
 
@@ -462,7 +462,7 @@ footer {
   }
 
   .bottom-angle {
-    right: -20px;
+    right: -26px;
     bottom: -21px;
   }
 
@@ -473,7 +473,7 @@ footer {
 
   .examples {
     padding-top: 0;
-    width: 375px;
+    width: 320px;
   }
 
   .first-example,
@@ -481,14 +481,15 @@ footer {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 375px;
+    width: 320px;
   }
 
   .text-wrapper,
   .text-wrapper-1 {
     margin: 0;
-    width: 330px;
+    width: 300px;
     margin-bottom: 63px;
+    margin-left: -18px;
     text-align: center;
   }
 
@@ -517,7 +518,7 @@ footer {
   .cards {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 320px;
     justify-content: center;
     align-items: center;
   }
@@ -526,7 +527,7 @@ footer {
   }
 
   .offers {
-    width: 310px;
+    width: 275px;
     font-size: 11px;
     margin-bottom: 50px;
     margin-left: 25px;
@@ -539,19 +540,19 @@ footer {
   }
 
   .offers:last-child {
-    width: 310px;
+    width: 275px;
     font-size: 14px;
     font-weight: 600;
   }
 
   .redirection {
     width: 200px;
-    margin-left: 25px;
+    margin-left: 15px;
     padding: 25px;
   }
 
   .information {
-    width: 375px;
+    width: 320px;
   }
 
   .footer-logo {
