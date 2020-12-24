@@ -401,7 +401,7 @@ footer {
 @media (min-width: 320px) {
   .main-header,
   .content {
-    width: 320px;
+    width: 375px;
     padding: 0;
     margin: 0;
     font-size: 14px;
@@ -409,7 +409,7 @@ footer {
 
   .description {
     display: block;
-    width: 320px;
+    width: 350px;
   }
 
   .primary-content {
@@ -445,13 +445,13 @@ footer {
     margin-right: 0;
   }
   .advantages {
-    width: 320px;
+    width: 330px;
     margin-bottom: 10px;
     
   }
 
   .excellence {
-    margin-right: 40px;
+    margin-right: 20px;
     padding: 0;
     width: 230px;
     padding-top: 40px;
@@ -462,18 +462,18 @@ footer {
   }
 
   .bottom-angle {
-    right: -26px;
+    right: -28px;
     bottom: -21px;
   }
 
   .top-angle {
-    left: -20px;
-    top: -20px;
+    left: 5px;
+    top: 5px;
   }
 
   .examples {
     padding-top: 0;
-    width: 320px;
+    width: 375px;
   }
 
   .first-example,
@@ -515,10 +515,13 @@ footer {
     height: 180px;
   }
 
+  .tarrifs h2 {
+    margin-top: 220px;
+  }
   .cards {
     display: flex;
     flex-direction: column;
-    width: 320px;
+    width: 350px;
     justify-content: center;
     align-items: center;
   }
@@ -536,7 +539,7 @@ footer {
   }
 
   .offers:first-child {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .offers:last-child {
@@ -552,7 +555,7 @@ footer {
   }
 
   .information {
-    width: 320px;
+    width: 375px;
   }
 
   .footer-logo {
