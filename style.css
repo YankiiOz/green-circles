@@ -401,7 +401,7 @@ footer {
 @media (min-width: 320px) {
   .main-header,
   .content {
-    width: 420px;
+    width: 375px;
     padding: 0;
     margin: 0;
     font-size: 14px;
@@ -409,12 +409,12 @@ footer {
 
   .description {
     display: block;
-    width: 380px;
+    width: 375px;
   }
 
   .primary-content {
     margin-bottom: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
   }
 
   .greeen-half-circle-parent,
@@ -427,7 +427,7 @@ footer {
     text-align: center;
     justify-content: center;
     margin: 0;
-    width: 456px;
+    width: 375px;
   }
 
   .arguments ul {
@@ -436,14 +436,16 @@ footer {
 
   .first-argument,
   .second-argument {
-    width: 380px;
-    margin: 0;
+    width: 370px;
     margin-bottom: 10px;
+    padding: 10px;
   }
 
+  .first-argument {
+    margin-right: 0;
+  }
   .advantages {
-    width: 420px;
-    margin: 0;
+    width: 375px;
     margin-bottom: 10px;
     
   }
@@ -465,13 +467,13 @@ footer {
   }
 
   .top-angle {
-    left: 0;
-    top: -10px;
+    left: -20px;
+    top: -20px;
   }
 
   .examples {
     padding-top: 0;
-    width: 456px;
+    width: 375px;
   }
 
   .first-example,
@@ -479,13 +481,13 @@ footer {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 456px;
+    width: 375px;
   }
 
   .text-wrapper,
   .text-wrapper-1 {
     margin: 0;
-    width: 400px;
+    width: 330px;
     margin-bottom: 63px;
     text-align: center;
   }
@@ -515,7 +517,7 @@ footer {
   .cards {
     display: flex;
     flex-direction: column;
-    width: 456px;
+    width: 375px;
     justify-content: center;
     align-items: center;
   }
@@ -524,10 +526,10 @@ footer {
   }
 
   .offers {
-    width: 350px;
+    width: 310px;
     font-size: 11px;
-    margin-bottom: 30px;
-    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-left: 25px;
     font-size: 14px;
     font-weight: 600;
   }
@@ -537,18 +539,22 @@ footer {
   }
 
   .offers:last-child {
-    width: 350px;
+    width: 310px;
     font-size: 14px;
     font-weight: 600;
   }
 
   .redirection {
-    width: 300px;
-    margin-left: 38px;
+    width: 200px;
+    margin-left: 25px;
     padding: 25px;
   }
 
   .information {
-    width: 456px;
+    width: 375px;
+  }
+
+  .footer-logo {
+    padding-left: 20px;
   }
 }
