@@ -398,19 +398,17 @@ footer {
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 420px) {
   .main-header,
   .content {
-
-    width: 720px;
-
+    width: 300px;
     padding: 0;
     font-size: 12px;
   }
 
   .description {
     display: block;
-    width: 700px;
+    width: 274px;
   }
 
   .primary-content {
@@ -436,13 +434,13 @@ footer {
 
   .first-argument,
   .second-argument {
-    width: 700px;
+    width: 274px;
     margin: 0;
     margin-bottom: 10px;
   }
 
   .advantages {
-    width: 700px;
+    width: 274px;
     margin: 0;
     margin-bottom: 10px;
   }
@@ -450,12 +448,12 @@ footer {
   .excellence {
     margin: 0;
     padding: 0;
-    width: 680px;
+    width: 250px;
     padding-top: 40px;
   }
 
   .excellence p {
-    width: 620px;
+    width: 210px;
   }
 
   .bottom-angle {
@@ -482,7 +480,7 @@ footer {
   .text-wrapper,
   .text-wrapper-1 {
     margin: 0;
-    width: 700px;
+    width: 270px;
     margin-bottom: 63px;
     text-align: center;
   }
@@ -505,8 +503,9 @@ footer {
   }
 
   .examples img {
-    width: 400px;
-    height: 380px;
+    width: 200px;
+    height: 180px;
   }
 }
+
 
