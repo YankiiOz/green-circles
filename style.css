@@ -398,23 +398,37 @@ footer {
   font-weight: 700;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 1024px) {
   .main-header,
-  .content {
-    width: 375px;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
+  .content,
+  .information {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
   }
 
-  .description {
-    display: block;
+  .examples img {
     width: 350px;
+    height: 250px;
   }
 
-  .primary-content {
-    margin-bottom: 20px;
-    margin-left: 20px;
+  .first-example,
+  .second-example {
+    width: 1000px;
+  }
+
+  .cards {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header,
+  .content,
+  .information {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
   }
 
   .greeen-half-circle-parent,
@@ -422,143 +436,190 @@ footer {
     display: none;
   }
 
-  .arguments {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin: 0;
-    width: 375px;
-  }
-
-  .arguments ul {
-    margin-left: 80px;
-  }
-
-  .first-argument,
-  .second-argument {
-    width: 310px;
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-
-  .first-argument {
-    margin-right: 0;
-  }
-  .advantages {
-    width: 330px;
-    margin-bottom: 10px;
-    
-  }
-
-  .excellence {
-    margin-right: 20px;
-    padding: 0;
-    width: 230px;
-    padding-top: 40px;
-  }
-
-  .excellence p {
+  .examples img {
     width: 300px;
-  }
-
-  .bottom-angle {
-    right: -28px;
-    bottom: -21px;
-  }
-
-  .top-angle {
-    left: 5px;
-    top: 5px;
-  }
-
-  .examples {
-    padding-top: 0;
-    width: 375px;
+    height: 200px;
   }
 
   .first-example,
   .second-example {
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    width: 320px;
+    width: 718px;
   }
 
-  .text-wrapper,
-  .text-wrapper-1 {
-    margin: 0;
+  .text-wrapper {
+    margin-right: 20px;
     width: 300px;
-    margin-bottom: 63px;
-    margin-left: -18px;
-    text-align: center;
   }
 
   .upper-image {
-    right: 56px;
-    bottom: -6px;
+    right: 8px;
+    top: 36px;
+  }
+  .down-image {
+    position: absolute;
+    right: 50px;
+    bottom: 70px;
+  }
+  .text-wrapper-1 {
+    margin-left: 20px;
+    width: 300px;
   }
 
   .upper-image-1 {
-    position: absolute;
-    left: 32px;
-    bottom: -150px;
+    left: 8px;
+    bottom: 83px;
   }
 
   .down-image-1 {
     position: absolute;
-    right: 45px;
-    bottom: -195px;
+    left: 50px;
+    bottom: 21px;
   }
 
-  .examples img {
-    width: 200px;
-    height: 180px;
-  }
-
-  .tarrifs h2 {
-    margin-top: 220px;
-  }
   .cards {
+    width: 760px;
     display: flex;
     flex-direction: column;
-    width: 350px;
+    padding: 0;
     justify-content: center;
     align-items: center;
   }
-  .cards li {
+
+  .cards ul {
     text-align: center;
   }
 
-  .offers {
-    width: 275px;
-    font-size: 11px;
-    margin-bottom: 50px;
-    margin-left: 25px;
-    font-size: 14px;
-    font-weight: 600;
-  }
-
-  .offers:first-child {
-    margin-top: 30px;
-  }
-
+  .offers,
   .offers:last-child {
-    width: 275px;
-    font-size: 14px;
-    font-weight: 600;
+    margin-bottom: 50px;
+    width: 600px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-header,
+  .content,
+  .information {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+
+  .arguments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .arguments ul {
+    margin-left: 70px;
+  }
+  .first-argument,
+  .second-argument {
+    width: 290px;
+    margin-right: 0;
+    padding: 10px;  
+  }
+
+  .advantages {
+    margin-bottom: 100px;
+  }
+  .excellence  {
+    width: 290px;
+    padding: 0;
+    margin: 0 auto;
+   
+  }
+
+  .excellence h2 {
+    font-size: 18px;
+    margin-left: -40px;
+    
+  }
+  .excellence p {
+    width: 250px;
+  }
+
+  .bottom-angle {
+    right: 20px;
+    bottom: -2px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .top-angle {
+    left: 4px;
+    top: -15px;
+    width: 50px;
+    height: 50px;
+
+  }
+
+  .examples {
+    padding: 0;
+    width: 310px;
+  }
+  .examples img {
+    width: 200px;
+    height: 150px;
+  }
+  .first-example,
+  .second-example {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  .upper-image {
+    right: 23px;
+    top: 378px;
+  }
+  .down-image {
+    position: absolute;
+    right: 74px;
+    bottom: -165px;
+  }
+
+  .text-wrapper, .text-wrapper-1 {
+    width: 250px;
+    margin-top: 10px;
+    padding-top: 0;
+    
+  }
+
+  .text-wrapper-1 {
+    padding-bottom: 200px;
+  }
+  .upper-image-1 {
+    bottom: 16px;
+    left: 23px;
+  }
+  .down-image-1 {
+    position: absolute;
+    left: 70px;
+    bottom: 56px;
+  }
+
+  .cards {
+    width: 300px;
+  }
+
+  .offers,
+  .offers:last-child {
+    width: 280px;
+    margin-left: 29px;
+    padding-left: 10px;
   }
 
   .redirection {
-    width: 200px;
-    margin-left: 15px;
-    padding: 25px;
+    width: 250px;
   }
-
-  .information {
-    width: 375px;
+ 
+  .information p {
+    padding: 0;
   }
-
-  .footer-logo {
-    padding-left: 20px;
-  }
+  
 }
