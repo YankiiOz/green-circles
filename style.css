@@ -118,7 +118,6 @@ ul {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 100px;
-
 }
 
 .arguments h3 {
@@ -137,13 +136,12 @@ ul {
 }
 
 .first-argument {
-  width: 500px;
-  margin-right: 150px;
-  margin-bottom: 29px;
+  margin-right: 130px;
 }
 
 .second-argument {
-  width: 500px;
+
+  margin-bottom: 29px;
 }
 
 .advantages {
@@ -166,7 +164,7 @@ ul {
 }
 
 .excellence p {
-  width: 550px;
+  max-width: 550px;
   font-size: 18px;
   line-height: 30px;
 }
@@ -214,15 +212,20 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 60px;
   padding: 20px;
-  padding-top: 100px;
+  padding-top: 10px;
   background-color: #201e1e;
 }
 
 .examples h3 {
   color: #c6d663;
+}
+
+.examples img {
+  width: 500px;
+  height: 400px;
 }
 .first-example {
   position: relative;
@@ -246,7 +249,7 @@ ul {
   box-shadow: 0 0 20px 20px rgb(22, 22, 22);
 }
 .text-wrapper {
-  width: 400px;
+  
   margin-right: 260px;
   font-size: 18px;
 }
@@ -262,7 +265,6 @@ ul {
 }
 
 .text-wrapper-1 {
-  width: 400px;
   margin-left: 260px;
   font-size: 18px;
 }
@@ -279,7 +281,6 @@ ul {
   border-radius: 10px;
   box-shadow: 0 0 20px 20px rgb(22, 22, 22);
 }
-
 
 .tarrifs {
   display: flex;
@@ -309,7 +310,7 @@ ul {
 
 .offers {
   margin-right: 50px;
-  width: 330px;
+  max-width: 330px;
   border: none;
   box-shadow: 0 0 20px 20px rgb(24, 23, 23);
   padding-left: 20px;
@@ -320,7 +321,7 @@ ul {
 
 .offer-plus-size {
   margin-right: 50px;
-  width: 330px;
+  max-width: 330px;
   border: none;
   box-shadow: 0 0 20px 20px rgb(24, 23, 23);
   padding: 25px;
@@ -344,12 +345,12 @@ ul {
 }
 
 .base-offer {
-  text-align: left;
+  text-align: center;
   padding-left: 2px;
 }
 
 .offers:last-child {
-  width: 348px;
+  max-width: 348px;
 }
 
 .redirection {
@@ -407,20 +408,39 @@ footer {
     margin: 0 auto;
   }
 
+  .second-argument {
+    margin-bottom: 0;
+  }
+
+  .top-angle {
+    right: 610px;
+    top: 30px;
+  }
+
   .examples img {
     width: 350px;
     height: 250px;
   }
 
-  .first-example,
-  .second-example {
-    width: 1000px;
+  .examples {
+    margin-bottom: 80px;
   }
 
-  .cards {
-    width: 1000px;
+  .offers:first-child {
+    width: 350px;
+    padding: 20px;
+  }
+
+  .offers:last-child {
+    max-width: 300px;
+  }
+
+  .tarrifs h2 {
+    margin-right: 100px;
+    
   }
 }
+
 
 @media (max-width: 768px) {
   .main-header,
@@ -431,79 +451,12 @@ footer {
     margin: 0 auto;
   }
 
-  .greeen-half-circle-parent,
-  .green-half-circle-parent-2 {
+  .primary-content {
+    margin-bottom: 80px;
+  }
+  .green-half-circle-parent-2,
+  .greeen-half-circle-parent {
     display: none;
-  }
-
-  .examples img {
-    width: 300px;
-    height: 200px;
-  }
-
-  .first-example,
-  .second-example {
-    width: 718px;
-  }
-
-  .text-wrapper {
-    margin-right: 20px;
-    width: 300px;
-  }
-
-  .upper-image {
-    right: 8px;
-    top: 36px;
-  }
-  .down-image {
-    position: absolute;
-    right: 50px;
-    bottom: 70px;
-  }
-  .text-wrapper-1 {
-    margin-left: 20px;
-    width: 300px;
-  }
-
-  .upper-image-1 {
-    left: 8px;
-    bottom: 83px;
-  }
-
-  .down-image-1 {
-    position: absolute;
-    left: 50px;
-    bottom: 21px;
-  }
-
-  .cards {
-    width: 760px;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .cards ul {
-    text-align: center;
-  }
-
-  .offers,
-  .offers:last-child {
-    margin-bottom: 50px;
-    width: 600px;
-    margin-left: 15px;
-  }
-}
-
-@media (max-width: 320px) {
-  .main-header,
-  .content,
-  .information {
-    width: 100%;
-    padding: 0 10px;
-    margin: 0 auto;
   }
 
   .arguments {
@@ -512,114 +465,138 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
   }
 
   .arguments ul {
-    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
   }
   .first-argument,
   .second-argument {
-    width: 290px;
+    display: flex;
+    flex-direction: column;
     margin-right: 0;
-    padding: 10px;  
+    padding: 10px;
   }
 
   .advantages {
     margin-bottom: 100px;
   }
-  .excellence  {
-    width: 290px;
-    padding: 0;
+  .excellence {
+    padding: 20px;
     margin: 0 auto;
-   
+    width: auto;
   }
 
   .excellence h2 {
     font-size: 18px;
-    margin-left: -40px;
-    
-  }
-  .excellence p {
-    width: 250px;
   }
 
-  .bottom-angle {
-    right: 20px;
-    bottom: -2px;
-    width: 50px;
-    height: 50px;
-  }
-
+  .bottom-angle,
   .top-angle {
-    left: 4px;
-    top: -15px;
-    width: 50px;
-    height: 50px;
-
+    display: none;
   }
+ 
 
-  .examples {
-    padding: 0;
-    width: 310px;
-  }
   .examples img {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
   }
   .first-example,
   .second-example {
     display: flex;
     flex-direction: column;
-    width: 300px;
-  }
-  .upper-image {
-    right: 23px;
-    top: 378px;
-  }
-  .down-image {
-    position: absolute;
-    right: 74px;
-    bottom: -165px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
-  .text-wrapper, .text-wrapper-1 {
-    width: 250px;
+  .first-example {
+    margin-bottom: 100px;
+  }
+
+  .second-example {
+    margin-top: 150px;
+  }
+  
+
+  .upper-image,
+  .upper-image-1 {
+    display: none;
+  }
+  .down-image {
+    
+    position: absolute;
+    left: 40px;
+    bottom: -200px;
+  }
+
+  .text-wrapper,
+  .text-wrapper-1 {
     margin-top: 10px;
     padding-top: 0;
-    
+    margin: 0;
   }
 
   .text-wrapper-1 {
     padding-bottom: 200px;
   }
-  .upper-image-1 {
-    bottom: 16px;
-    left: 23px;
-  }
+ 
   .down-image-1 {
     position: absolute;
-    left: 70px;
-    bottom: 56px;
+    left: 40px;
+    bottom: -22px;
+  }
+
+  .tarrifs h2 {
+    margin-left: 100px;
   }
 
   .cards {
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  .cards li {
+    text-align: center;
   }
 
   .offers,
   .offers:last-child {
-    width: 280px;
-    margin-left: 29px;
-    padding-left: 10px;
+    margin-bottom: 70px;
+    padding: 10px;
+    margin-right: 0;
+    max-width: 300px;
+    
   }
 
   .redirection {
     width: 250px;
   }
- 
+
   .information p {
     padding: 0;
   }
-  
+}
+
+@media (max-width: 320px) {
+  .down-image-1 {
+    position: absolute;
+    left: 4px;
+    bottom: -22px;
+  }
+
+  .down-image {
+    position: absolute;
+    left: 4px;
+    bottom: -200px;
+  }
+
+  .offers,
+  .offers:last-child {
+    max-width: 280px;
+  }
 }
